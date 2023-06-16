@@ -1,0 +1,7 @@
+jobs:
+  - job: tests
+    trigger: pull_request
+    skip_build: true
+    targets:
+      - fedora-all
+      - epel-all
