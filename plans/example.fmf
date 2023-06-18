@@ -1,0 +1,5 @@
+summary: Example plan
+discover:
+    how: fmf
+execute:
+    how: tmt
